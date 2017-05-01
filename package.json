@@ -1,0 +1,22 @@
+{
+  "name": "custom-finder",
+  "main": "./lib/custom-finder",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "custom-finder:toggle"
+  },
+  "repository": "https://github.com/atom/custom-finder",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-select-list": "^0.1.0",
+    "fuzzaldrin": "^2.1.0",
+    "fuzzaldrin-plus": "^0.4.1",
+    "underscore-plus": "^1.0.0"
+  }
+}

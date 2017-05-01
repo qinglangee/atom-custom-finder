@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle custom-finder",
+        "command": "custom-finder:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "custom-finder",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "custom-finder:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
